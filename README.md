@@ -32,7 +32,7 @@ Este proyecto es un generador de sitios web estáticos escrito en Python. Permit
 2. Personaliza las plantillas en la carpeta `templates`.
 3. Ejecuta el script principal:
    ```bash
-   python main.py
+   python app.py
    ```
 4. Encuentra el sitio generado en la carpeta `dist`.
 
