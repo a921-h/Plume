@@ -1,0 +1,8 @@
+{
+  "name": "ForgePro: Advanced Template Hub",
+  "description": "A high-end development platform featuring advanced React templates, comprehensive documentation, and a collaborative contribution space, powered by Gemini AI for smart code generation.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
