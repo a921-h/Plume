@@ -1,6 +1,6 @@
 # Generador de Sitios Estáticos
 
-Este proyecto es un generador de sitios web estáticos escrito en Python. Permite convertir contenido Markdown en páginas HTML utilizando plantillas personalizables.
+Este proyecto es un generador de sitios estáticos escrito en Python. Permite convertir contenido Markdown en páginas HTML utilizando plantillas personalizables.
 
 ## Características
 - Convierte archivos Markdown en HTML.
