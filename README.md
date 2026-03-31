@@ -39,7 +39,7 @@ Este proyecto es un generador de sitios estáticos escrito en Python. Permite co
 ## Contribuciones
 ¡Las contribuciones son bienvenidas! Por favor, abre un issue o envía un pull request.
 
-[Puedes invitarme a un Café](https://www.paypal.com/donate/?hosted_button_id=7BAMFVX6K2BNE)
+[Puedes invitarme a un Café](https://checkout.revolut.com/pay/c631503d-1293-41b2-bd1b-7dac308f00ce)
 
 ## Licencia
 Este proyecto está licenciado bajo la Licencia GPL. Consulta el archivo `LICENSE` para más detalles.
