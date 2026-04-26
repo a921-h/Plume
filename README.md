@@ -18,8 +18,19 @@ Plume es un generador de sitios estáticos moderno escrito en Python. Construye 
 
 ## Instalación
 
+### Desde PyPI (recomendado)
 ```bash
 pip install plume
+```
+
+### Desde GitHub
+```bash
+pip install git+https://github.com/a921-h/plume.git
+```
+
+### Desarrollo
+```bash
+pip install -e .
 ```
 
 ## Inicio Rápido
