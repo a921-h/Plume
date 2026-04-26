@@ -45,4 +45,4 @@ Este Código de Conducta está adaptado del [Contributor Covenant](https://www.c
 
 ---
 
-Para preguntas sobre este Código de Conducta, email a [abel@example.com](mailto:abel@example.com)
+Para preguntas sobre este Código de Conducta, abre un issue en GitHub
