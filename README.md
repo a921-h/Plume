@@ -356,6 +356,50 @@ Plume está en desarrollo activo. La API puede cambiar en versiones futuras.
 
 ## Links
 
-- [ GitHub](https://github.com/a921-h/plume)
-- [ Reportar issues](https://github.com/a921-h/plume/issues)
-- [ Changelog](https://github.com/a921-h/plume/releases)
+- [GitHub](https://github.com/a921-h/plume)
+- [PyPI](https://pypi.org/project/plume)
+- [Reportar issues](https://github.com/a921-h/plume/issues)
+- [Changelog](https://github.com/a921-h/plume/releases)
+
+---
+
+## Contribuir
+
+¿Te gusta Plume? ¡Ayúdanos a mejorarlo!
+
+### Ways to Contribute
+
+1. **Reportar bugs** - Abre un issue en [GitHub](https://github.com/a921-h/plume/issues)
+2. **Sugerir features** - Comparte tus ideas
+3. **Mejorar documentación** - Los PRs son bienvenidos
+4. **Crear temas** - Comparte tus plantillas
+5. **Donar** - [GitHub Sponsors](https://github.com/sponsors/a921-h)
+
+### Desarrollo
+
+```bash
+# Clonar el repo
+git clone https://github.com/a921-h/plume.git
+cd plume
+
+# Instalar en modo desarrollo
+pip install -e .
+
+# Ejecutar tests
+pytest
+
+# Build local
+python -m plume build
+```
+
+## Donar
+
+Si Plume te es útil, considera apoyarnos:
+
+<a href="https://github.com/sponsors/a921-h">
+  <img src="https://img.shields.io/badge/GitHub_Sponsors-Implementar-303f53?style=for-the-badge&logo=GitHub+Sponsors" alt="GitHub Sponsors">
+</a>
+
+---
+
+**Gracias por usar Plume!**
