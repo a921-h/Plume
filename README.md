@@ -4,17 +4,18 @@
   <img src="https://img.shields.io/pypi/v/plume" alt="PyPI version">
   <img src="https://img.shields.io/pypi/pyversions/plume" alt="Python versions">
   <img src="https://img.shields.io/github/license/a921-h/plume" alt="License">
+  <img src="https://img.shields.io/pypi/dm/plume" alt="Downloads">
 </p>
 
-Plume es un generador de sitios estáticos moderno escrito en Python. Construye sitios web rápidos y hermosos usando componentes Python y Markdown.
+Plume es un generador de sitios estáticos moderno escrito en Python. Construye sitios web rápidos y hermosos usando componentes Python y Markdown. Olvídate de los lenguajes de plantillas complicados - usa Python puro.
 
-## Características
+## Por qué Plume?
 
-- **Componentes Python** - Construye páginas con funciones Python en lugar de lenguajes de plantillas
-- **Soporte Markdown** - Escribe contenido en Markdown con metadatos frontmatter
-- **Build Rápido** - Genera HTML estático en milisegundos
-- **Experiencia de Desarrollo** - Live reload, builds incrementales
-- **CLI Simple** - Comandos intuitivos
+- **Python puro** - Sin lenguajes de plantillas como Jinja2 otemplate literals
+- **Componentes reutilizables** - Crea tu propia biblioteca de componentes
+- **Type hints** - Mejor tooling con tu IDE favorito
+- **Extensible** - Fácil de extender con plugins y hooks
+- **Minimalista** - Solo lo esencial, sin dependencias innecesarias
 
 ## Instalación
 
@@ -23,13 +24,15 @@ Plume es un generador de sitios estáticos moderno escrito en Python. Construye 
 pip install plume
 ```
 
-### Desde GitHub
+### Desde GitHub (últimaversión)
 ```bash
 pip install git+https://github.com/a921-h/plume.git
 ```
 
 ### Desarrollo
 ```bash
+git clone https://github.com/a921-h/plume.git
+cd plume
 pip install -e .
 ```
 
@@ -316,6 +319,43 @@ GPL-3.0 - Ver [LICENSE](LICENSE)
 
 ---
 
-## Contribuciones
+## Comparación con otras herramientas
 
-¡Las contribuciones son bienvenidas! Abre un issue o envía un pull request en [GitHub](https://github.com/a921-h/plume).
+| Característica | Plume | Pelican | MkDocs | Hugo |
+|----------------|-------|--------|-------|-------|------|
+| Lenguaje | Python | Python | Python | Go |
+| Componentes | Python | Jinja2 | Jinja2 | Go |
+| Templates | Codificación | Jinja2 | Jinja2 | Markdown |
+| Curva de aprendizaje | Baja | Media | Baja | Alta |
+| Velocidad | Alta | Media | Alta | Muy alta |
+
+## Demo
+
+```bash
+# Crea un proyecto de ejemplo
+plume new mi-blog
+cd mi-blog
+
+# Añade contenido
+echo '---
+title: Hola Mundo
+---
+# Bienvenido
+Este es mi primer post.' > content/hello.md
+
+# Build
+plume build
+
+# Sirve localmente
+plume serve
+```
+
+## Estado del Proyecto
+
+Plume está en desarrollo activo. La API puede cambiar en versiones futuras.
+
+## Links
+
+- [ GitHub](https://github.com/a921-h/plume)
+- [ Reportar issues](https://github.com/a921-h/plume/issues)
+- [ Changelog](https://github.com/a921-h/plume/releases)

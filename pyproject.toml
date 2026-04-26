@@ -1,12 +1,12 @@
 [project]
 name = "plume"
 version = "0.1.0"
-description = "A modern Python static site generator with components"
+description = "A modern Python static site generator that lets you build websites using Python components instead of template languages"
 readme = "README.md"
 license = { text = "GPL-3.0" }
 authors = [{ name = "Abel", email = "abel@example.com" }]
 requires-python = ">=3.10"
-keywords = ["static-site-generator", "ssg", "python", "markdown", "html", "components", "blog", "website"]
+keywords = ["static-site-generator", "ssg", "python", "markdown", "html", "components", "blog", "website", "jinja2", "generator"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
